@@ -1,6 +1,6 @@
 <?php
 
-namespace Bolt\Extension\YourName\ExtensionName\Field;
+namespace Bolt\Extension\ThomasHackl\Gallery\Field;
 
 use Bolt\Storage\Field\FieldInterface;
 

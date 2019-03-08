@@ -1,6 +1,6 @@
 <?php
 
-namespace Bolt\Extension\YourName\ExtensionName\Controller;
+namespace Bolt\Extension\ThomasHackl\Gallery\Controller;
 
 use Bolt\Controller\Base;
 use Silex\Application;

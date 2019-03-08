@@ -1,6 +1,6 @@
 <?php
 
-namespace Bolt\Extension\YourName\ExtensionName;
+namespace Bolt\Extension\ThomasHackl\Gallery;
 
 use Bolt\Asset\File\JavaScript;
 use Bolt\Asset\File\Stylesheet;
@@ -19,11 +19,11 @@ use Symfony\Component\HttpFoundation\Response;
 use Twig\Markup;
 
 /**
- * ExtensionName extension class.
+ * Gallery extension class.
  *
- * @author Your Name <you@example.com>
+ * @author Thomas Hackl <bolt@thomas-hackl.name>
  */
-class ExtensionNameExtension extends SimpleExtension
+class GalleryExtension extends SimpleExtension
 {
     /**
      * {@inheritdoc}

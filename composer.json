@@ -15,26 +15,26 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Your Name",
-            "email": "you@example.com"
+            "name": "Thomas Hackl",
+            "email": "bolt@thomas-hackl.name"
         }
     ],
     "minimum-stability": "dev",
     "prefer-stable": true,
     "autoload": {
         "psr-4": {
-            "Bolt\\Extension\\YourName\\ExtensionName\\": "src"
+            "Bolt\\Extension\\ThomasHackl\\Gallery\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Bolt\\Extension\\YourName\\ExtensionName\\Tests\\": "tests",
+            "Bolt\\Extension\\ThomasHackl\\Gallery\\Tests\\": "tests",
             "Bolt\\Tests\\": "vendor/bolt/bolt/tests/phpunit/unit/"
         }
     },
     "extra": {
         "bolt-assets": "web",
-        "bolt-class": "Bolt\\Extension\\YourName\\ExtensionName\\ExtensionNameExtension",
+        "bolt-class": "Bolt\\Extension\\ThomasHackl\\Gallery\\GalleryExtension",
         "bolt-icon": "bolt-icon.png",
         "bolt-screenshots": [
             "screenshots/screenshot1.png"
