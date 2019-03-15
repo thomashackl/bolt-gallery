@@ -1,11 +1,7 @@
-# This is the configuration file for your extension.
-# This file is written in the yaml format and will be copied as {extension-name}.{vendor-name}.yml into /app/config/extensions.
-# See Extension.php or https://docs.bolt.cm/extensions/basics/configuration how to access it.
+# The path your pictures reside in, relative to files folder
+pictures_path: photos
 
-foo: 1
-bar: 2.5
-baz: foo bar
-
-example:
-  foo: 3
-  bar: baz
+# How are the folders structured? Possible values are
+# - "date" for a folder structure like "2019/02/..."
+# - "flat" for all folders just under the pictures_path
+folder_structure: flat
